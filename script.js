@@ -19,17 +19,17 @@ function onYouTubeIframeAPIReady() {
             'modestbranding': 1,
         },
         events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
+            'onReady': onVideo,
+            'onStateChange': onStateChangePlayer
         }
     });
 }
 
-function onPlayerReady(event) {
+function onVideo(event) {
     // Player is ready
 }
 
-function onPlayerStateChange(event) {
+function onStateChangePlayer(event) {
     // Handle player state changes if needed
 }
 

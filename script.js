@@ -1,4 +1,4 @@
-// Replace 'YOUR_API_KEY' with your actual YouTube API key
+
 const apiKey = 'AIzaSyAkrc8_od3g1s89e5R0khiMEttpD3meJWs';
 const script = document.createElement('script');
 script.src = `https://www.youtube.com/iframe_api?api_key=${apiKey}`;
